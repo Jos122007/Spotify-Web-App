@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+        <h2>🎵 My Music</h2>
+
+        <div class="menu">
+            <p>🏠 Home</p>
+            <p>🔍 Search</p>
+            <p>📚 Your Library</p>
+        </div>
+    </aside>
+
+    <main class="main">
+
+        <h1>Good Evening 👋</h1>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="What do you want to listen to?"
+            >
+            <button onclick="searchSong()">Search</button>
+        </div>
+
+        <h2>Popular Songs</h2>
+
+        <div id="songs" class="songs"></div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
